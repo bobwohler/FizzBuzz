@@ -14,6 +14,7 @@ namespace FizzBuzz
             // For every number between 1 and 100 that is divisible by 5, write "Buzz"
             // For every number between 1 and 100 that is divisible by both, write "FizzBuzz"
             // For every other number between 1 and 100 write "FizzBuzzNone"
+            Console.Write("Begin!");
             for (int i = 1; i <= 100; i++)
             {
                 Console.WriteLine(i.ToString());
